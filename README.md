@@ -5,4 +5,4 @@ Autoclick and reload blum game
 <br>Now, you can only run 1 time to play multiple turns of game.
 <br>Usage: pip install -r requirements.txt
 <br>python blum_auto.py
-Please open Telegram Desktop and Blum mini App first.
+<br>_Please open Telegram Desktop and Blum mini App first._
