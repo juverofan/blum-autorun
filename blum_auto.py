@@ -162,7 +162,7 @@ else:
                     click(screen_x + 4, screen_y)
                     time.sleep(0.001)
                     pixel_found = True
-                    timet -= 1
+                    timet -= 1.5
                     break
 
                 elif (226 <= r <= 236) and (170 <= g <= 180) and (131 <= b <= 141):
@@ -171,7 +171,7 @@ else:
                     click(screen_x + 4, screen_y)
                     time.sleep(0.001)
                     pixel_found = True
-                    timet -= 1
+                    timet -= 1.5
                     break
 
                 elif (255 <= r <= 265) and (137 <= g <= 147) and (97 <= b <= 107):
@@ -180,9 +180,9 @@ else:
                     click(screen_x + 4, screen_y)
                     time.sleep(0.001)
                     pixel_found = True
-                    timet -= 1
+                    timet -= 1.5
                     break
-
+                '''
                 elif pixel_condition(r,g,b):
                     screen_x = window_rect[0] + x
                     screen_y = window_rect[1] + y
@@ -191,7 +191,7 @@ else:
                     pixel_found = True
                     timet -= 1
                     break
-        
+                '''
         t = time.time()
         print(str(t)+"\t|\t"+str(last_t)+"\t|\t"+str(timet))
         if timet > 200:    
